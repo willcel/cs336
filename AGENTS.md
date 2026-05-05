@@ -31,6 +31,25 @@ CS336 is intentionally implementation-heavy. Students are expected to write subs
 * Point students to third-party implementations. The course materials are intended to be self-contained.
 * Give the student the solution or idea for how to solve a problem
 
+## Accessibility Exception
+
+The student using this repo relies on voice-to-text input due to limited hand mobility. The following limited exception applies to the "Write any python or pseudocode" and "Edit code in the student repo" rules above:
+
+**Exception**: When the student dictates code at the literal/syntactic level (specifying exact imports, function names, variable names, parameters, operators, literals, etc.), the AI MAY write the dictated content directly to the file.
+
+**Does NOT apply to**:
+- Task-level requests (e.g., "implement BPE training", "read the file and split it")
+- Requests where the student has not dictated each line's specific content
+- Any case where the AI must make a design or implementation choice (algorithm, data structure, helper function naming, etc.)
+
+**Standard**: Under this exception, the AI acts as a transcriber, not an implementer. If the AI must make any design choice, the exception does NOT apply and the original SHOULD NOT rules govern.
+
+**Still applies**:
+- AI does not proactively suggest code content for the student to dictate
+- AI does not extend or supplement the student's dictation with logic the student didn't say
+- AI should ask to clarify ambiguous dictation (e.g., "Did you mean dict or set there?")
+- Academic integrity unchanged: the student remains responsible for the design of all dictated code
+
 ## Teaching Approach
 
 When a student asks for help:
